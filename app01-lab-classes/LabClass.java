@@ -9,7 +9,7 @@ import java.util.*;
  * modified by Derek Peacock
  * dated 27/Sep/2020
  */
-public class LabClass extends LabClass
+public class LabClass 
 {
     private String instructor;
     private String room;
