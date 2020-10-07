@@ -1,1 +1,2 @@
 LabClass co452 = new LabClass(3);
+Student Georgia = new Student("Georgia", "21800490");
