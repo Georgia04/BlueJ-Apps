@@ -1,2 +1,31 @@
-LabClass co452 = new LabClass(3);
-Student Georgia = new Student("Georgia", "21800490");
+Student emily = new Student("Emily", "215667890");
+Student mike = new Student("Mike", "216775467");
+Student nick = new Student("Nick", "213456789");
+LabClass co452Lab = new LabClass(30);
+mike.addCredits(20);
+nick.getCredits()
+    returned int 0
+nick.addCredits(20);
+emily.addCredits(20);
+co452Lab.setInstructor("Nicholas Day");
+co452Lab.setRoom("G100 ");
+co452Lab.numberOfStudents()
+    returned int 0
+mike.changeName("Michael");
+co452Lab.enrollStudent(mike);
+co452Lab.printList();
+Lab class unknown
+Instructor: Nicholas Day   Room: G100 
+Class list:
+Michael, student ID: 216775467, credits: 20
+Number of students: 1
+co452Lab.setTime("9.00, Tue 29");
+co452Lab.numberOfStudents()
+    returned int 1
+nick.getLoginName()
+    returned String "Nick213"
+nick.getStudentID()
+    returned String "213456789"
+Course course1 = new Course("G400", "Computing");
+course1.print();
+Course: G400 Computing
