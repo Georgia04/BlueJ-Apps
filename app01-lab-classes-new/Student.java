@@ -15,6 +15,7 @@ public class Student
     
     // A BSc course has 120 credits, each module has 15 credits
     private int credits;
+    private Course course;
     
     /**
      * Create a new student with a given name and ID number.
