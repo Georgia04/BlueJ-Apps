@@ -1,0 +1,56 @@
+TicketMachine ticketMa1 = new TicketMachine();
+TicketMachine ticketMa2 = new TicketMachine();
+ticketMa2.insert200p();
+You have inserted200
+Current balance = 200
+ticketMa2.insert200p();
+You have inserted200
+Current balance = 400
+ticketMa2.printTicket();
+##################
+# The BlueJ Line
+# Ticket
+# 220 cents.
+##################
+
+TicketMachine ticketMa1 = new TicketMachine();
+ticketMa1.insert200p();
+You have inserted200
+Current balance = 200
+ticketMa1.insert200p();
+You have inserted200
+Current balance = 400
+ticketMa1.selectAylesbury();
+ticketMa1.printTicket();
+##################
+# The BlueJ Line
+# Ticket
+--------------------------
+   Ticket: Aylesbury
+   Price: 220p 
+--------------------------
+   Date: Sun Oct 25 06:08:28 GMT-12:00 2020
+--------------------------
+##################
+
+TicketMachine ticketMa1 = new TicketMachine();
+ticketMa1.printAllTickets();
+The following tickets are available
+--------------------------
+   Ticket: Aylesbury
+   Price: 220p 
+--------------------------
+   Date: Sun Oct 25 06:14:22 GMT-12:00 2020
+--------------------------
+--------------------------
+   Ticket: Amersham
+   Price: 230p 
+--------------------------
+   Date: Sun Oct 25 06:14:22 GMT-12:00 2020
+--------------------------
+--------------------------
+   Ticket: High Wycombe
+   Price: 350p 
+--------------------------
+   Date: Sun Oct 25 06:14:22 GMT-12:00 2020
+--------------------------
