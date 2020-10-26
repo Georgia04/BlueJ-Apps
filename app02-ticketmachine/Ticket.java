@@ -1,8 +1,8 @@
 import java.util.Date;
 
 /**
- * Write a description of class Ticket here.
- *
+ * This class shows the attributes of the ticket. The destination, the price
+ * of the ticket and the date-time.
  * @author (Georgia)
  * @version (a version number or a date)
  */
@@ -28,11 +28,17 @@ public class Ticket
         return destination;
     }
     
+    /**
+     * Return the ticket's price as an integer.
+     */
     public int getPrice()
     {
         return price;
     }
     
+    /**
+     * Print all the details about the ticket into the system
+     */
      public void print()
     {
         System.out.println("--------------------------");

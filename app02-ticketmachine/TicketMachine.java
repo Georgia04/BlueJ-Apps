@@ -52,17 +52,25 @@ public class TicketMachine
         balance = balance + coin.getValue();
         System.out.println("Your balance is: " + balance + "p");
     }
-
+    /**
+     * User selects the destination ticket to  Aylesbury into the machine
+     */
     public void selectAylesbury()
     {
         userTicket = aylesburyTicket;
     }
-
+    
+    /**
+     * User selects the destination ticket to  Amersham into the machine
+     */
     public void selectAmersham()
     {
         userTicket = amershamTicket;
     }    
-
+    
+    /**
+     * User selects the destination ticket to Wycombe   into the machine
+     */
     public void selectWycombe()
     {
         userTicket = wycomeTicket;
@@ -77,6 +85,11 @@ public class TicketMachine
         return balance;
     }
 
+    /**
+     * User inserts the money into the ticket machine and the machine
+     * print the current balanca. If the amount of the
+     * money is less than 0, then the machine prints a message to the user.
+     */
     public void insertMoney(int amount)
     {
         if(amount > 0) 
@@ -151,6 +164,9 @@ public class TicketMachine
         }
     }
 
+    /**
+     * ticket machine prints available tickets
+     */
     public void printAllTickets()
     {
         System.out.println("The following tickets are available");
