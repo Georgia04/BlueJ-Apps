@@ -165,7 +165,7 @@ public class TicketMachine
     }
 
     /**
-     * ticket machine prints available tickets
+     * Ticket machine prints the available tickets
      */
     public void printAllTickets()
     {
