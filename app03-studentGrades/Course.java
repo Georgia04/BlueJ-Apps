@@ -17,6 +17,7 @@ public class Course
     private Module module4;
     
     private int finalMark;
+     
     
     private Grades finalGrade;
 
@@ -34,6 +35,11 @@ public class Course
         module2 = new Module("Chemistry", "C1432");
         module3 = new Module("English", "E1789");
         module4 = new Module("Programming Concepts","PC2579");
+    }
+    
+    public void addModule(Module module,int moduleNo) 
+    {
+        
     }
     
     public void addMark(int mark, int moduleNo)
