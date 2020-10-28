@@ -8,20 +8,18 @@
  */
 public class Module
 {
-    private String title;
+    private String moduleTitle;
     
-    private String codeNo;
+    private String moduleCode;
     
-    private int mark;
+    public int mark;
 
-    /**
-     * Constructor for objects of class Module
-     */
-    public Module(String title,String codeNo)
+    
+    public Module(String moduleTitle,String moduleCode)
     {
        mark = 0;
-       this.title = title;
-       this.codeNo = codeNo;
+       this.moduleTitle = moduleTitle;
+       this.moduleCode = moduleCode;
     }
     
     public void awardMark(int mark)
@@ -36,10 +34,10 @@ public class Module
         }
     }
     
-    public void print()
+    public void printDetails()
     {
-       System.out.println("Module: " + codeNo +
-            " " + title + " Mark = " + mark);
+       System.out.println("Module: " + moduleCode +
+            " " + moduleTitle + " Mark = " + mark);
     }
 
    

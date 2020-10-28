@@ -1,13 +1,11 @@
 
 /**
- * Write a description of class Grades here.
+ *  Enumeration class Grades - This is used for the final 
  *
- * @author (your name)
+ * @author (Georgia)
  * @version (a version number or a date)
  */
 public enum Grades
 {
-    // instance variables - replace the example below with your own
-    X,F,D,C,B,A
-    
+    X ,F, D, C, B, A
 }
