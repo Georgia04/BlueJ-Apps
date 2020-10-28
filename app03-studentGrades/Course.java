@@ -21,7 +21,7 @@ public class Course
     
     private double finalGrade;
     
-    private Grades gradeLetter;
+    
     private String studentGrade;
 
     /**
@@ -136,13 +136,13 @@ public class Course
     
      public void printModuleDetails()
     {
-        System.out.println("       ");
+        System.out.println("-----------");
         module1.printDetails();
-        System.out.println("       ");
+        System.out.println(" -----------");
         module2.printDetails();
-        System.out.println("       ");
+        System.out.println("----------");
         module3.printDetails();
-        System.out.println("       ");
+        System.out.println("----------");
         module4.printDetails();
     }
     
