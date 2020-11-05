@@ -17,8 +17,13 @@ public class Student
     private int credits;
     
     private Course course;
+    private Course completionPoints;
     
-       
+     
+    public void totalCredits()
+    {
+        System.out.println(completionPoints);
+    }
     /**
      * Create a new student with a given name and ID number.
      */

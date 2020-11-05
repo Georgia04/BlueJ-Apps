@@ -13,6 +13,8 @@ public class Module
     private String moduleCode;
     
     public int mark;
+    
+    
 
     
     public Module(String moduleTitle,String moduleCode)
@@ -20,6 +22,7 @@ public class Module
        mark = 0;
        this.moduleTitle = moduleTitle;
        this.moduleCode = moduleCode;
+       
     }
     
     public void awardMark(int mark)
@@ -27,6 +30,7 @@ public class Module
         if((mark >= 0) && (mark <= 100))
         {
             this.mark = mark;
+            
         }
         else
         {

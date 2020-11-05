@@ -10,12 +10,16 @@ public class Course
     // Attributes, Variable, Fields
     private String courseTitle;
     private String courseCode;
+    private int completedModule;
+    public int completionPoints;
     
+    //Create new modules
     private Module module1;
     private Module module2;
     private Module module3;
     private Module module4;
     
+    //Total module mark/100 percentage
     private double finalMark;
      
     
@@ -54,18 +58,26 @@ public class Course
         if(moduleCode == 1)
         {
             module1.awardMark(mark);
+            this.completedModule = completedModule + 1;
+            this.completionPoints = completionPoints + 15;
         }
         else if(moduleCode == 2)
         {
             module2.awardMark(mark);
+            this.completedModule = completedModule + 1;
+            this.completionPoints = completionPoints + 15;
         }
         else if(moduleCode == 3)
         {
             module3.awardMark(mark);
+            this.completedModule = completedModule + 1;
+            this.completionPoints = completionPoints + 15;
         }
         else if(moduleCode == 4)
         {
             module4.awardMark(mark);
+            this.completedModule = completedModule + 1;
+            this.completionPoints = completionPoints + 15;
         }
         else
         {
@@ -148,7 +160,15 @@ public class Course
     
     public void printFinalGrade()
     {
-        System.out.println("Your final grade for " + courseTitle +
+        if (completedModule >= 4)
+        {
+            System.out.println("Your final grade for " + courseTitle +
         (", ") + courseCode + (" is: ") + studentGrade);
+        }
+        else
+        {
+            System.out.println("You need to complete all modules!");
+        }
     }
+    
 }
