@@ -1,6 +1,5 @@
 Student student1 = new Student("Georgia", "12345");
-Student student1 = new Student("Georgia", "12345");
-Course computingCourse = new Course("Computing", "345678");
+Course computingCourse = new Course("Compuitng", "345678");
 student1.enrolOnCourse(computingCourse);
 student1.getCredits()
     returned int 0
@@ -10,24 +9,30 @@ computingCourse.addMark(50, 2);
 computingCourse.addMark(80, 3);
 computingCourse.addMark(40, 4);
 computingCourse.calculateFinalMark();
-Your marks  Computing, 345678 are: 240.0
+Your marks  Compuitng, 345678 are: 240.0
 Your course percentage is: 60.0%
 computingCourse.convertToGrade(70)
     returned Object B
 computingCourse.convertToGrade(40)
     returned Object B
-computingCourse.convertToGrade(80)
-    returned Object B
 computingCourse.printFinalGrade();
-Your final grade for Computing, 345678 is: B
+Your final grade for Compuitng, 345678 is: B
 computingCourse.print();
-Course: Computing 345678
+Course: Compuitng 345678
 computingCourse.printModuleDetails();
-       
+-----------
 Module: M1546 Programming Concepts Mark = 70
-       
+ -----------
 Module: C1432 Web Development Mark = 50
-       
+----------
 Module: E1789 Computer Architecture Mark = 80
-       
+----------
 Module: PC2579 Digital Technologies Mark = 40
+Module module1 = new Module("Programming Concepts", "M1546");
+module1.awardMark(70);
+Module module2 = new Module("Web Development", "C1432");
+module2.awardMark(15);
+computingCourse.printFinalGrade();
+Your final grade for Compuitng, 345678 is: B
+student1.totalCredits();
+null
