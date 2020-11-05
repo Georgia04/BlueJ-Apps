@@ -1,0 +1,27 @@
+StockManager manager = new StockManager();
+StockDemo stockDem1 = new StockDemo(manager);
+manager.delivery(132, 200);
+Prodcut Delievered: 132: iPhone stock level: 200
+manager.findProduct(132)
+    returned Object <object reference>
+manager.numberInStock(3)
+    returned int 0
+manager.printAllProducts();
+
+Georgia's Stock List
+====================
+
+132: iPhone stock level: 200
+37: Wireless headphones stock level: 0
+23: Microwave Oven stock level: 0
+
+manager.printProduct(37);
+37: Wireless headphones stock level: 0
+manager.removeProduct(132);
+manager.renameProduct(132, "iPhone A4");
+Product not found!
+manager.sellProduct(132, 200);
+stockDem1.demoDeliverProduct();
+37: Wireless headphones stock level: 0
+Product ID 132 has not been found!
+37: Wireless headphones stock level: 0
