@@ -1,5 +1,6 @@
 StockManager manager = new StockManager();
 StockDemo stockDem1 = new StockDemo(manager);
+Product product1 = new Product(132, "iPhone");
 manager.deliverProduct(132, 200);
 manager.findProduct(132)
     returned Object <object reference>
@@ -30,6 +31,15 @@ manager.findProduct(55)
 manager.deliverProduct(50, 400);
 manager.findProduct(50)
     returned Object <object reference>
+product1.getID()
+    returned int 132
+product1.getName()
+    returned String "iPhone"
+product1.getQuantity()
+    returned int 0
+product1.increaseQuantity(2);
+product1.sellQuantity();
+product1.replaceName("iPhone A");
 manager.numberInStock(7)
     returned int 0
 manager.numberInStock(10)
@@ -53,10 +63,9 @@ manager.sellProduct(118, 1);
 manager.sellProduct(150, 4);
 150: Samsung Galaxy S10 stock level: 650
 150: Samsung Galaxy S10 stock level: 645
-manager.sellProduct(120, 120);
+manager.sellProduct(120, 2);
 120: Apple iPhone 12 stock level: 90
-Attempt to sell an out of stock item: Apple iPhone 12
-120: Apple iPhone 12 stock level: 0
+120: Apple iPhone 12 stock level: 87
 manager.sellProduct(110, 5);
 110: PlayStation 4 stock level: 800
 110: PlayStation 4 stock level: 794
@@ -70,7 +79,7 @@ manager.sellProduct(50, 1);
 50: Radio stock level: 400
 50: Radio stock level: 398
 stockDem1.demoDeliverProducts();
-stockDem1.runDemo();
+manager.printAllProducts();
 
 Georgia's Stock List
 ====================
@@ -80,25 +89,9 @@ Georgia's Stock List
 128: Microwave Oven stock level: 0
 118: Google Pixel A4 stock level: 398
 150: Samsung Galaxy S10 stock level: 645
-120: Apple iPhone 12 stock level: 0
+120: Apple iPhone 12 stock level: 87
 110: PlayStation 4 stock level: 794
 100: iPhone 12 Pro stock level: 95
 55: Smart TV stock level: 697
 50: Radio stock level: 398
 
-
-Georgia's Stock List
-====================
-
-132: iPhone stock level: 0
-130: Wireless headphones stock level: 297
-128: Microwave Oven stock level: 0
-118: Google Pixel A4 stock level: 398
-150: Samsung Galaxy S10 stock level: 645
-120: Apple iPhone 12 stock level: 0
-110: PlayStation 4 stock level: 794
-100: iPhone 12 Pro stock level: 95
-55: Smart TV stock level: 697
-50: Radio stock level: 398
-
-    Exception occurred.
