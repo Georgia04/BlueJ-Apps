@@ -79,6 +79,11 @@ public class Student
         return name.substring(0,4) + id.substring(0,3);
     }
     
+    public void enrolOnCourse(Course course)
+    {
+       this.course = course; 
+    }
+    
     /**
      * Print the student's name and ID number to the output terminal.
      */
