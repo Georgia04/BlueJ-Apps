@@ -30,59 +30,54 @@ public class StockManager
     }
     
     /**
-     * Receive a delivery of a particular product.
+     * Receive a delivery of a product.
      * Increase the quantity of the product by the given amount.
      * @param id The ID of the product.
      * @param amount The amount to increase the quantity by.
      */
-     public void renameProduct(int id, String replacementName)
+     public void deliverProduct(int id, int amount)
     {
         Product product = findProduct(id);
+        
         if(product != null)
         {
-            product.replaceName(replacementName);
+            product.increaseQuantity(amount);
         }
         else
         {
-            System.out.println("Product not found!");
+            System.out.println("Invalid Product ID = " + id);
         }
     }
     
      /**
-     * Receive a delivery of a particular product.
-     * Increase the quantity of the product by the given amount.
-     * @param id The ID of the product.
-     * @param amount The amount to increase the quantity by.
+     * Sell one of the given item.
+     * Show the before and after status of the product.
+     * @param id The ID of the product being sold.
      */
-     public void delivery(int id, int amount)
+     public void sellProduct(int id, int quantity)
     {
         Product product = findProduct(id);
         if(product != null)
         {
-          product.increaseQuantity(amount);
-          System.out.println("Prodcut Delievered: " + product);
+            if(quantity > product.getQuantity())
+                quantity = product.getQuantity();
+                
+            printProduct(id);
         }
-        else
+        
+        for(int count = 0; count <= quantity; count++)
         {
-            System.out.println("Product ID " + id + " has not been found!");
+             product.sellQuantity();
         }
+        
+        printProduct(id); 
     }
     
-    public void removeProduct(int id)
-    {
-        Product product = findProduct(id);
-        
-        if (product != null)
-        {
-            stock.remove(product);        
-        }
-        
-        else
-        {
-            System.out.println("Unable to find product");
-        }
-    } 
-    
+    /**
+     * Try to find a product in the stock with the given id.
+     * @return The identified product, or null if there is none
+     *         with a matching ID.
+     */
     public Product findProduct(int id)
     {
         for(Product product : stock)
@@ -94,23 +89,7 @@ public class StockManager
         }
         return null;
     }
-    
-    /**
-     * Sell one of the given item.
-     * Show the before and after status of the product.
-     * @param id The ID of the product being sold.
-     */
-    public void sellProduct(int id, int amount)
-    {
-        Product product = findProduct(id);
         
-        if(product != null) 
-        {
-            printProduct(id);
-            product.sellQuantity(amount);
-            printProduct(id);
-        }
-    }    
     
      /**
      * Locate a product with the given ID, and return how

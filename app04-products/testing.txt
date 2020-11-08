@@ -1,27 +1,104 @@
 StockManager manager = new StockManager();
 StockDemo stockDem1 = new StockDemo(manager);
-manager.delivery(132, 200);
-Prodcut Delievered: 132: iPhone stock level: 200
+manager.deliverProduct(132, 200);
 manager.findProduct(132)
     returned Object <object reference>
-manager.numberInStock(3)
+manager.deliverProduct(130, 300);
+manager.findProduct(130)
+    returned Object <object reference>
+manager.deliverProduct(128, 100);
+manager.findProduct(128)
+    returned Object <object reference>
+manager.deliverProduct(118, 400);
+manager.findProduct(118)
+    returned Object <object reference>
+manager.deliverProduct(150, 650);
+manager.findProduct(150)
+    returned Object <object reference>
+manager.deliverProduct(120, 90);
+manager.findProduct(120)
+    returned Object <object reference>
+manager.deliverProduct(110, 800);
+manager.findProduct(110)
+    returned Object <object reference>
+manager.deliverProduct(100, 99);
+manager.findProduct(100)
+    returned Object <object reference>
+manager.deliverProduct(55, 700);
+manager.findProduct(55)
+    returned Object <object reference>
+manager.deliverProduct(50, 400);
+manager.findProduct(50)
+    returned Object <object reference>
+manager.numberInStock(7)
     returned int 0
-manager.printAllProducts();
+manager.numberInStock(10)
+    returned int 0
+manager.printProduct(132);
+132: iPhone stock level: 200
+manager.sellProduct(132, 200);
+132: iPhone stock level: 200
+Attempt to sell an out of stock item: iPhone
+132: iPhone stock level: 0
+manager.sellProduct(130, 2);
+130: Wireless headphones stock level: 300
+130: Wireless headphones stock level: 297
+manager.sellProduct(128, 100);
+128: Microwave Oven stock level: 100
+Attempt to sell an out of stock item: Microwave Oven
+128: Microwave Oven stock level: 0
+manager.sellProduct(118, 1);
+118: Google Pixel A4 stock level: 400
+118: Google Pixel A4 stock level: 398
+manager.sellProduct(150, 4);
+150: Samsung Galaxy S10 stock level: 650
+150: Samsung Galaxy S10 stock level: 645
+manager.sellProduct(120, 120);
+120: Apple iPhone 12 stock level: 90
+Attempt to sell an out of stock item: Apple iPhone 12
+120: Apple iPhone 12 stock level: 0
+manager.sellProduct(110, 5);
+110: PlayStation 4 stock level: 800
+110: PlayStation 4 stock level: 794
+manager.sellProduct(100, 3);
+100: iPhone 12 Pro stock level: 99
+100: iPhone 12 Pro stock level: 95
+manager.sellProduct(55, 2);
+55: Smart TV stock level: 700
+55: Smart TV stock level: 697
+manager.sellProduct(50, 1);
+50: Radio stock level: 400
+50: Radio stock level: 398
+stockDem1.demoDeliverProducts();
+stockDem1.runDemo();
 
 Georgia's Stock List
 ====================
 
-132: iPhone stock level: 200
-37: Wireless headphones stock level: 0
-23: Microwave Oven stock level: 0
+132: iPhone stock level: 0
+130: Wireless headphones stock level: 297
+128: Microwave Oven stock level: 0
+118: Google Pixel A4 stock level: 398
+150: Samsung Galaxy S10 stock level: 645
+120: Apple iPhone 12 stock level: 0
+110: PlayStation 4 stock level: 794
+100: iPhone 12 Pro stock level: 95
+55: Smart TV stock level: 697
+50: Radio stock level: 398
 
-manager.printProduct(37);
-37: Wireless headphones stock level: 0
-manager.removeProduct(132);
-manager.renameProduct(132, "iPhone A4");
-Product not found!
-manager.sellProduct(132, 200);
-stockDem1.demoDeliverProduct();
-37: Wireless headphones stock level: 0
-Product ID 132 has not been found!
-37: Wireless headphones stock level: 0
+
+Georgia's Stock List
+====================
+
+132: iPhone stock level: 0
+130: Wireless headphones stock level: 297
+128: Microwave Oven stock level: 0
+118: Google Pixel A4 stock level: 398
+150: Samsung Galaxy S10 stock level: 645
+120: Apple iPhone 12 stock level: 0
+110: PlayStation 4 stock level: 794
+100: iPhone 12 Pro stock level: 95
+55: Smart TV stock level: 697
+50: Radio stock level: 398
+
+    Exception occurred.
