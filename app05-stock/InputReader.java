@@ -7,6 +7,7 @@ import java.util.Scanner;
  * 
  * @author     Michael Kölling and David J. Barnes
  * @version    0.1 (2016.02.29)
+ * @modified Georgia Gkegka
  */
 public class InputReader
 {
@@ -30,7 +31,36 @@ public class InputReader
     {
         System.out.print("> ");         // print prompt
         String inputLine = reader.nextLine();
+        
+        if(inputLine.length() ==0)
+        {
+            System.out.println("\n This is not a valid value");
+        }
 
         return inputLine;
     }
+    
+    public int getInt()
+    {
+        int number = 0;
+        boolean valid = false;
+        
+        while(!valid)
+        {
+            String string = getInput();
+            try
+            {
+                number = Integer.parseInt(string);
+                valid = true;
+            }
+            catch(Exception wrong)
+            {
+                System.out.println("\n Please input a number..");
+            } 
+        }
+        return number;
+        
+    }
+    
+    
 }
