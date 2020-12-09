@@ -1,0 +1,199 @@
+250: iPhone stock level: 0
+252: Microwave Oven stock level: 0
+253: Google Pixel A4 stock level: 0
+254: Samsung Galaxy S10 stock level: 0
+255: Apple iPhone 12 stock level: 0
+257: iPhone 12 Pro stock level: 0
+258: Smart TV stock level: 0
+260: Laptop stock level: 0
+261: Camera stock level: 0
+
+******************************
+ Stock Management Application 
+    App05: by Georgia Gkegka
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Deliver:    Deliver prdoucts
+    Sell:       Sell products
+    Search:     Search for a product
+    Check       Check the stock of items
+    Demo        Demo buying a number of items
+    Restock     Restock low items
+    PrintAll:   Print all products
+    Range:      Check the range of ID's used
+    Quit:       Quit the program
+
+> demo
+Delivering:
+Prodcut Delivered: 250: iPhone stock level: 7
+Prodcut Delivered: 251: Wireless headphones stock level: 10
+Prodcut Delivered: 252: Microwave Oven stock level: 2
+Prodcut Delivered: 253: Google Pixel A4 stock level: 5
+Prodcut Delivered: 254: Samsung Galaxy S10 stock level: 3
+Prodcut Delivered: 255: Apple iPhone 12 stock level: 1
+Prodcut Delivered: 256: PlayStation 4 stock level: 9
+Prodcut Delivered: 257: iPhone 12 Pro stock level: 1
+Prodcut Delivered: 258: Smart TV stock level: 4
+Product ID 259 has not been found!
+Prodcut Delivered: 260: Laptop stock level: 5
+Delivering:
+Prodcut Delivered: 250: iPhone stock level: 11
+Prodcut Delivered: 251: Wireless headphones stock level: 12
+Prodcut Delivered: 252: Microwave Oven stock level: 8
+Prodcut Delivered: 253: Google Pixel A4 stock level: 6
+Prodcut Delivered: 254: Samsung Galaxy S10 stock level: 8
+Prodcut Delivered: 255: Apple iPhone 12 stock level: 6
+Prodcut Delivered: 256: PlayStation 4 stock level: 16
+Prodcut Delivered: 257: iPhone 12 Pro stock level: 8
+Prodcut Delivered: 258: Smart TV stock level: 5
+Product ID 259 has not been found!
+Prodcut Delivered: 260: Laptop stock level: 9
+
+******************************
+ Stock Management Application 
+    App05: by Georgia Gkegka
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Deliver:    Deliver prdoucts
+    Sell:       Sell products
+    Search:     Search for a product
+    Check       Check the stock of items
+    Demo        Demo buying a number of items
+    Restock     Restock low items
+    PrintAll:   Print all products
+    Range:      Check the range of ID's used
+    Quit:       Quit the program
+
+> restock
+The stock of the following products should be refilled
+258: Smart TV stock level: 5
+261: Camera stock level: 0
+Refilling stock:
+The stock has been refilled!
+258: Smart TV stock level: 13
+261: Camera stock level: 8
+The quantity of each product is at least 6
+Refilling stock:
+Every item is over five...
+
+******************************
+ Stock Management Application 
+    App05: by Georgia Gkegka
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Deliver:    Deliver prdoucts
+    Sell:       Sell products
+    Search:     Search for a product
+    Check       Check the stock of items
+    Demo        Demo buying a number of items
+    Restock     Restock low items
+    PrintAll:   Print all products
+    Range:      Check the range of ID's used
+    Quit:       Quit the program
+
+> printall
+
+Georgia's Stock List
+====================
+
+250: iPhone stock level: 11
+251: Wireless headphones stock level: 12
+252: Microwave Oven stock level: 8
+253: Google Pixel A4 stock level: 6
+254: Samsung Galaxy S10 stock level: 8
+255: Apple iPhone 12 stock level: 6
+256: PlayStation 4 stock level: 16
+257: iPhone 12 Pro stock level: 8
+258: Smart TV stock level: 13
+260: Laptop stock level: 9
+261: Camera stock level: 8
+
+
+Georgia's Stock List
+====================
+
+250: iPhone stock level: 11
+251: Wireless headphones stock level: 12
+252: Microwave Oven stock level: 8
+253: Google Pixel A4 stock level: 6
+254: Samsung Galaxy S10 stock level: 8
+255: Apple iPhone 12 stock level: 6
+256: PlayStation 4 stock level: 16
+257: iPhone 12 Pro stock level: 8
+258: Smart TV stock level: 13
+260: Laptop stock level: 9
+261: Camera stock level: 8
+
+
+******************************
+ Stock Management Application 
+    App05: by Georgia Gkegka
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Deliver:    Deliver prdoucts
+    Sell:       Sell products
+    Search:     Search for a product
+    Check       Check the stock of items
+    Demo        Demo buying a number of items
+    Restock     Restock low items
+    PrintAll:   Print all products
+    Range:      Check the range of ID's used
+    Quit:       Quit the program
+
+> range
+The lowest ID is: 250
+The highest ID is: 260
+The lowest ID is: 250
+The highest ID is: 260
+
+******************************
+ Stock Management Application 
+    App05: by Georgia Gkegka
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Deliver:    Deliver prdoucts
+    Sell:       Sell products
+    Search:     Search for a product
+    Check       Check the stock of items
+    Demo        Demo buying a number of items
+    Restock     Restock low items
+    PrintAll:   Print all products
+    Range:      Check the range of ID's used
+    Quit:       Quit the program
+
+> search
+Searching for a product...
+Please enter the name: 
+> Wi
+Searching for a product...
+Please enter the name: 
+> Mi
+
+******************************
+ Stock Management Application 
+    App05: by Georgia Gkegka
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Deliver:    Deliver prdoucts
+    Sell:       Sell products
+    Search:     Search for a product
+    Check       Check the stock of items
+    Demo        Demo buying a number of items
+    Restock     Restock low items
+    PrintAll:   Print all products
+    Range:      Check the range of ID's used
+    Quit:       Quit the program
+
+> quit

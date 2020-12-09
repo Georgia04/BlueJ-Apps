@@ -1,0 +1,128 @@
+Program.main();
+
+******************************
+ Stock Management Application 
+    App05: by Georgia Gkegka
+******************************
+
+******************************
+ Stock Management Application 
+    App05: by Georgia Gkegka
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Deliver:    Deliver prdoucts
+    Sell:       Sell products
+    Search:     Search for a product
+    Check       Check the stock of items
+    Demo        Demo buying a number of items
+    Restock     Restock low items
+    PrintAll:   Print all products
+    Range:      Check the range of ID's used
+    Quit:       Quit the program
+
+> sell
+Selling products:
+Please enter the ID: 
+> 258
+Please enter the amount to be sold:
+> 2
+258: Smart TV stock level: 0
+Attempt to sell an out of stock item: Smart TV
+258: Smart TV stock level: 0
+Selling products:
+Please enter the ID: 
+> 260
+Please enter the amount to be sold:
+> 5
+260: Laptop stock level: 0
+Attempt to sell an out of stock item: Laptop
+260: Laptop stock level: 0
+
+******************************
+ Stock Management Application 
+    App05: by Georgia Gkegka
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Deliver:    Deliver prdoucts
+    Sell:       Sell products
+    Search:     Search for a product
+    Check       Check the stock of items
+    Demo        Demo buying a number of items
+    Restock     Restock low items
+    PrintAll:   Print all products
+    Range:      Check the range of ID's used
+    Quit:       Quit the program
+
+> search
+Searching for a product...
+Please enter the name: 
+> Radio
+Searching for a product...
+Please enter the name: 
+> iPhone Pro 12
+
+******************************
+ Stock Management Application 
+    App05: by Georgia Gkegka
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Deliver:    Deliver prdoucts
+    Sell:       Sell products
+    Search:     Search for a product
+    Check       Check the stock of items
+    Demo        Demo buying a number of items
+    Restock     Restock low items
+    PrintAll:   Print all products
+    Range:      Check the range of ID's used
+    Quit:       Quit the program
+
+> check
+The stock of the following products should be refilled
+250: iPhone stock level: 0
+251: Wireless headphones stock level: 0
+252: Microwave Oven stock level: 0
+253: Google Pixel A4 stock level: 0
+254: Samsung Galaxy S10 stock level: 0
+255: Apple iPhone 12 stock level: 0
+256: PlayStation 4 stock level: 0
+257: iPhone 12 Pro stock level: 0
+258: Smart TV stock level: 0
+259: Radio stock level: 0
+260: Laptop stock level: 0
+The stock of the following products should be refilled
+250: iPhone stock level: 0
+251: Wireless headphones stock level: 0
+252: Microwave Oven stock level: 0
+253: Google Pixel A4 stock level: 0
+254: Samsung Galaxy S10 stock level: 0
+255: Apple iPhone 12 stock level: 0
+256: PlayStation 4 stock level: 0
+257: iPhone 12 Pro stock level: 0
+258: Smart TV stock level: 0
+259: Radio stock level: 0
+260: Laptop stock level: 0
+
+******************************
+ Stock Management Application 
+    App05: by Georgia Gkegka
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Deliver:    Deliver prdoucts
+    Sell:       Sell products
+    Search:     Search for a product
+    Check       Check the stock of items
+    Demo        Demo buying a number of items
+    Restock     Restock low items
+    PrintAll:   Print all products
+    Range:      Check the range of ID's used
+    Quit:       Quit the program
+
+> 

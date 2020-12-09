@@ -1,0 +1,120 @@
+Program.main();
+
+******************************
+ Stock Management Application 
+    App05: by Georgia Gkegka
+******************************
+
+******************************
+ Stock Management Application 
+    App05: by Georgia Gkegka
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Deliver:    Deliver prdoucts
+    Sell:       Sell products
+    Search:     Search for a product
+    Check       Check the stock of items
+    Demo        Demo buying a number of items
+    Restock     Restock low items
+    PrintAll:   Print all products
+    Range:      Check the range of ID's used
+    Quit:       Quit the program
+
+> add
+
+Adding a new product...
+> Apple iPhone 12
+
+ Please input a number..
+> 255
+
+ The product is exists. Please choose another.
+> 261
+> Camera
+
+ Name has been accepted.
+
+Adding a new product...
+> 262
+> CD Player
+
+ Name has been accepted.
+
+******************************
+ Stock Management Application 
+    App05: by Georgia Gkegka
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Deliver:    Deliver prdoucts
+    Sell:       Sell products
+    Search:     Search for a product
+    Check       Check the stock of items
+    Demo        Demo buying a number of items
+    Restock     Restock low items
+    PrintAll:   Print all products
+    Range:      Check the range of ID's used
+    Quit:       Quit the program
+
+> remove
+Removing a product:
+
+Please enter the ID: 
+> 262
+Removing a product:
+
+Please enter the ID: 
+> 259
+
+******************************
+ Stock Management Application 
+    App05: by Georgia Gkegka
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Deliver:    Deliver prdoucts
+    Sell:       Sell products
+    Search:     Search for a product
+    Check       Check the stock of items
+    Demo        Demo buying a number of items
+    Restock     Restock low items
+    PrintAll:   Print all products
+    Range:      Check the range of ID's used
+    Quit:       Quit the program
+
+> deliver
+Delivering a product:
+Please enter the ID: 
+> 256
+Please enter the amount to be delivered:
+> 7
+Prodcut Delivered: 256: PlayStation 4 stock level: 7
+Delivering a product:
+Please enter the ID: 
+> 251
+Please enter the amount to be delivered:
+> 6
+Prodcut Delivered: 251: Wireless headphones stock level: 6
+
+******************************
+ Stock Management Application 
+    App05: by Georgia Gkegka
+******************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Deliver:    Deliver prdoucts
+    Sell:       Sell products
+    Search:     Search for a product
+    Check       Check the stock of items
+    Demo        Demo buying a number of items
+    Restock     Restock low items
+    PrintAll:   Print all products
+    Range:      Check the range of ID's used
+    Quit:       Quit the program
+
+> quit
