@@ -173,6 +173,7 @@ public class StockApp
         String product = name.toLowerCase();
         
         manager.productSearch(product);
+       
         
     }
     
